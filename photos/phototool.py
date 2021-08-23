@@ -8,13 +8,13 @@ import json
 
 config = {
         # github 存储图片的仓库（本地仓库基准目录）
-        'github_img_host_base': 'D:\blog\hexo\static\images',
+        'github_img_host_base': 'D:\\blog\\hexo\\static\\images',
         # 会对这个目录下的所有文件夹进行遍历，相同目录生成_samll 的 缩略图
-        'img_path':             'D:\blog\hexo\static\images',
+        'img_path':             'D:\\blog\\hexo\\static\\images',
         # cdn 前缀
         'cdn_url_prefix':       'https://qy57s0c8l.hb-bkt.clouddn.com',
         # hexo 博客存放 photos 信息的 json 文件
-        'photo_info_json':      'D:\blog\hexo\source\photos\photoslist.json',
+        'photo_info_json':      'D:\\blog\\hexo\\source\\photos\\photoslist.json',
         }
 
 # 压缩图片到 90%(目的是为了移除一些gps 等信息，并非真的为了压缩）
